@@ -1,0 +1,221 @@
+body{
+    background-color: #f4f4f4;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.experiences {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+
+#main-header{
+    background-color: #333;
+    color: #fff;
+    background-position: center;
+
+}
+
+#navbar {
+    background-color: #333;
+    color: fff;
+    text-align: center;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+
+}
+
+
+#navbar ul{
+
+    list-style-type: none;
+    display: inline-block;
+
+
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 14px 10px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    float: left;
+
+}
+#navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+#showcase{
+    background-color: #333;
+    background-position: center right;
+    min-height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 38px;
+
+
+}
+
+nav .container ul li.active {
+    background-color: white;
+
+}
+
+
+#showcase h1{
+    color: #fff;
+    font-size: 30px;
+    line-height: 1.6em;
+    padding-top: 5px;
+    font-family: monospace;
+
+}
+
+#showcase h4{
+    color: #fff;
+    font-family: monospace;
+    font-size: 50px;
+    padding-top: 150px;
+}
+#showcase img {
+    height: 200px;
+    width: 220px;
+    border-radius: 40%;
+}
+
+#showcase hr{
+    color: #f4f4f4;
+}
+
+
+
+
+#main{
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    font-family: cursive;
+    color: #fff;
+    text-align: left;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background: #fff;
+    color: #333;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: cursive;
+    text-align: left;
+}
+
+#sidebar h1 {
+    color: #333;
+}
+
+
+#main-footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+
+
+}
+
+@media(max-width: 600px){
+    #main{
+        width: 100%;
+        float: none;
+
+    }
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+}
+
+.fa, .fas {
+    font-family: 'FontAwesome';
+}
+
+.social-icon {
+  color: #fff;
+  background: #221B14; 
+  font-size:1em;
+  border-radius: 50%;
+  line-height: 2.2em;
+  width: 2.1em;
+  height: 2.1em;
+  text-align: center;
+  display: inline-block;
+}
+
+li:hover {
+    transform: translateY(-4px);
+    transition:0.3s;
+}
+
+#experiences {
+    padding-top: 150px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 38px;
+
+}
+#experiences h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#experiences h4 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 30px;
+
+}
+
+.experience-period {
+    padding-top: 0px;
+    padding-bottom:100px;
+
+}
+
+
+
+
+
